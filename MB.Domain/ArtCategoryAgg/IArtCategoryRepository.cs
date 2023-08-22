@@ -8,5 +8,10 @@ namespace MB.Domain.ArtCategoryAgg
 {
     public interface IArtCategoryRepository
     {
+        void Creat(ArtCategory entity);
+        List<ArtCategory> GetAll();
+
+        //void Update(ArtCategory entity);
+
     }
 }
