@@ -1,0 +1,17 @@
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Infrastructure.EFCore/bin/Debug/net6.0/MB.Infrastructure.EFCore.deps.json
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Infrastructure.EFCore/bin/Debug/net6.0/MB.Infrastructure.EFCore.runtimeconfig.json
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Infrastructure.EFCore/bin/Debug/net6.0/MB.Infrastructure.EFCore.dll
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Infrastructure.EFCore/bin/Debug/net6.0/MB.Infrastructure.EFCore.pdb
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Infrastructure.EFCore/bin/Debug/net6.0/MB.Domain.dll
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Infrastructure.EFCore/bin/Debug/net6.0/MB.Domain.pdb
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Infrastructure.EFCore/obj/Debug/net6.0/MB.Infrastructure.EFCore.csproj.AssemblyReference.cache
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Infrastructure.EFCore/obj/Debug/net6.0/MB.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Infrastructure.EFCore/obj/Debug/net6.0/MB.Infrastructure.EFCore.AssemblyInfoInputs.cache
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Infrastructure.EFCore/obj/Debug/net6.0/MB.Infrastructure.EFCore.AssemblyInfo.cs
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Infrastructure.EFCore/obj/Debug/net6.0/MB.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Infrastructure.EFCore/obj/Debug/net6.0/MB.Infrastructure.EFCore.csproj.CopyComplete
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Infrastructure.EFCore/obj/Debug/net6.0/MB.Infrastructure.EFCore.dll
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Infrastructure.EFCore/obj/Debug/net6.0/refint/MB.Infrastructure.EFCore.dll
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Infrastructure.EFCore/obj/Debug/net6.0/MB.Infrastructure.EFCore.pdb
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Infrastructure.EFCore/obj/Debug/net6.0/MB.Infrastructure.EFCore.genruntimeconfig.cache
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Infrastructure.EFCore/obj/Debug/net6.0/ref/MB.Infrastructure.EFCore.dll

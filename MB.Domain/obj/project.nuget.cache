@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3zafUjb3Q9wU5LJKoV50avQkbrv9QvHOOiqN62EmWLG7N8YUH/fiT8PDp+7aLP7eMwbxDcTHhXMI2+AZP+8BTQ==",
+  "dgSpecHash": "OxrwgRfgyh8pHn+e2tXzh30VY1MOh5RS0mR4W4GJn2qXj+9YkmBxupdqswADQywlheTzeXfmyuHUlFP2DVh7UQ==",
   "success": true,
-  "projectFilePath": "E:\\code\\C#\\web\\MasterBlogger\\MB.Domain\\MB.Domain.csproj",
+  "projectFilePath": "/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Domain/MB.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

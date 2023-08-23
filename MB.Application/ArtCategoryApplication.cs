@@ -21,9 +21,10 @@ namespace MB.Application
                     Id = artcategory.Id,
                     Title = artcategory.Title,
                     IsDelete = artcategory.IsDeleted,
-                    CreateDate = artcategory.CreateDate.ToString(System.Globalization.CultureInfo.InvariantCulture),
+                    CreateDate = artcategory.CreateDate,
                 });
             }
+            return result;
         }
     }
 }

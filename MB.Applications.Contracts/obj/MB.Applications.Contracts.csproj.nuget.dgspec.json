@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "E:\\code\\C#\\web\\MasterBlogger\\MB.Applications.Contracts\\MB.Applications.Contracts.csproj": {}
+    "/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Applications.Contracts/MB.Applications.Contracts.csproj": {}
   },
   "projects": {
-    "E:\\code\\C#\\web\\MasterBlogger\\MB.Applications.Contracts\\MB.Applications.Contracts.csproj": {
+    "/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Applications.Contracts/MB.Applications.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\code\\C#\\web\\MasterBlogger\\MB.Applications.Contracts\\MB.Applications.Contracts.csproj",
+        "projectUniqueName": "/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Applications.Contracts/MB.Applications.Contracts.csproj",
         "projectName": "MB.Applications.Contracts",
-        "projectPath": "E:\\code\\C#\\web\\MasterBlogger\\MB.Applications.Contracts\\MB.Applications.Contracts.csproj",
-        "packagesPath": "C:\\Users\\amir2.ENG1-PC\\.nuget\\packages\\",
-        "outputPath": "E:\\code\\C#\\web\\MasterBlogger\\MB.Applications.Contracts\\obj\\",
+        "projectPath": "/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Applications.Contracts/MB.Applications.Contracts.csproj",
+        "packagesPath": "/Users/amirba/.nuget/packages/",
+        "outputPath": "/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Applications.Contracts/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\amir2.ENG1-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/amirba/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +37,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
         }
       }
     }

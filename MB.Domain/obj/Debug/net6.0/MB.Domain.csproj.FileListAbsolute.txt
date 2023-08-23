@@ -1,0 +1,12 @@
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Domain/bin/Debug/net6.0/MB.Domain.deps.json
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Domain/bin/Debug/net6.0/MB.Domain.dll
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Domain/bin/Debug/net6.0/MB.Domain.pdb
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Domain/obj/Debug/net6.0/MB.Domain.csproj.AssemblyReference.cache
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Domain/obj/Debug/net6.0/MB.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Domain/obj/Debug/net6.0/MB.Domain.AssemblyInfoInputs.cache
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Domain/obj/Debug/net6.0/MB.Domain.AssemblyInfo.cs
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Domain/obj/Debug/net6.0/MB.Domain.csproj.CoreCompileInputs.cache
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Domain/obj/Debug/net6.0/MB.Domain.dll
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Domain/obj/Debug/net6.0/refint/MB.Domain.dll
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Domain/obj/Debug/net6.0/MB.Domain.pdb
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Domain/obj/Debug/net6.0/ref/MB.Domain.dll

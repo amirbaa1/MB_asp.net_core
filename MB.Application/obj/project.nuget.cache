@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "U5bJmRAwFH6nUDgWTYGcOxfDw5bR68Otrrnw5jy+swtgYa2hety5so8dcaHJIiUfxPF2n0kWB9UCtFknnmTeZA==",
+  "dgSpecHash": "KsOeLQ3A412RRjIBzAu0VLi5yzxq4Dco4vY5dvrVwc80h2eQE5HrEo7MQATPwXctWFRJra1rosd1rYQvzlOqWg==",
   "success": true,
-  "projectFilePath": "E:\\code\\C#\\web\\MasterBlogger\\MB.Application\\MB.Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Application/MB.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/amirba/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/Users/amirba/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

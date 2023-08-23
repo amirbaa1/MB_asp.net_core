@@ -1,0 +1,17 @@
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Application/bin/Debug/net6.0/MB.Application.deps.json
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Application/bin/Debug/net6.0/MB.Application.dll
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Application/bin/Debug/net6.0/MB.Application.pdb
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Application/bin/Debug/net6.0/MB.Applications.Contracts.dll
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Application/bin/Debug/net6.0/MB.Domain.dll
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Application/bin/Debug/net6.0/MB.Applications.Contracts.pdb
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Application/bin/Debug/net6.0/MB.Domain.pdb
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Application/obj/Debug/net6.0/MB.Application.csproj.AssemblyReference.cache
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Application/obj/Debug/net6.0/MB.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Application/obj/Debug/net6.0/MB.Application.AssemblyInfoInputs.cache
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Application/obj/Debug/net6.0/MB.Application.AssemblyInfo.cs
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Application/obj/Debug/net6.0/MB.Application.csproj.CoreCompileInputs.cache
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Application/obj/Debug/net6.0/MB.Application.csproj.CopyComplete
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Application/obj/Debug/net6.0/MB.Application.dll
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Application/obj/Debug/net6.0/refint/MB.Application.dll
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Application/obj/Debug/net6.0/MB.Application.pdb
+/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Application/obj/Debug/net6.0/ref/MB.Application.dll
