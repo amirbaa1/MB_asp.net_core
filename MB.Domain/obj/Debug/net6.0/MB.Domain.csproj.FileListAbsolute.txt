@@ -13,6 +13,7 @@
 E:\code\C#\web\git\MB_asp.net_core\MB_asp.net_core\MB.Domain\bin\Debug\net6.0\MB.Domain.deps.json
 E:\code\C#\web\git\MB_asp.net_core\MB_asp.net_core\MB.Domain\bin\Debug\net6.0\MB.Domain.dll
 E:\code\C#\web\git\MB_asp.net_core\MB_asp.net_core\MB.Domain\bin\Debug\net6.0\MB.Domain.pdb
+E:\code\C#\web\git\MB_asp.net_core\MB_asp.net_core\MB.Domain\obj\Debug\net6.0\MB.Domain.csproj.AssemblyReference.cache
 E:\code\C#\web\git\MB_asp.net_core\MB_asp.net_core\MB.Domain\obj\Debug\net6.0\MB.Domain.GeneratedMSBuildEditorConfig.editorconfig
 E:\code\C#\web\git\MB_asp.net_core\MB_asp.net_core\MB.Domain\obj\Debug\net6.0\MB.Domain.AssemblyInfoInputs.cache
 E:\code\C#\web\git\MB_asp.net_core\MB_asp.net_core\MB.Domain\obj\Debug\net6.0\MB.Domain.AssemblyInfo.cs
@@ -21,4 +22,3 @@ E:\code\C#\web\git\MB_asp.net_core\MB_asp.net_core\MB.Domain\obj\Debug\net6.0\MB
 E:\code\C#\web\git\MB_asp.net_core\MB_asp.net_core\MB.Domain\obj\Debug\net6.0\refint\MB.Domain.dll
 E:\code\C#\web\git\MB_asp.net_core\MB_asp.net_core\MB.Domain\obj\Debug\net6.0\MB.Domain.pdb
 E:\code\C#\web\git\MB_asp.net_core\MB_asp.net_core\MB.Domain\obj\Debug\net6.0\ref\MB.Domain.dll
-E:\code\C#\web\git\MB_asp.net_core\MB_asp.net_core\MB.Domain\obj\Debug\net6.0\MB.Domain.csproj.AssemblyReference.cache
