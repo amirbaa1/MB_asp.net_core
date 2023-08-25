@@ -10,8 +10,9 @@ namespace MB.Domain.ArtCategoryAgg
     {
         void Creat(ArtCategory entity);
         List<ArtCategory> GetAll();
-
-        //void Update(ArtCategory entity);
+        ArtCategory Get(long id);
+        void Save();
+        bool CheckIsTitle(string title);
 
     }
 }

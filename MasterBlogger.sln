@@ -9,17 +9,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MB.Application.Contracts", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MB.Application", "MB.Application", "{729C9567-ED4D-4312-A00D-0237A72E76E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MB.Domain", "MB.Domain\MB.Domain.csproj", "{650951CF-5F70-4B6B-A450-536B72356606}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MB.Domain", "MB.Domain\MB.Domain.csproj", "{650951CF-5F70-4B6B-A450-536B72356606}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MB.Applications.Contracts", "MB.Applications.Contracts\MB.Applications.Contracts.csproj", "{4A962B00-8C2C-4206-AA90-FA4655BA3369}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MB.Applications.Contracts", "MB.Applications.Contracts\MB.Applications.Contracts.csproj", "{4A962B00-8C2C-4206-AA90-FA4655BA3369}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MB.Application", "MB.Application\MB.Application.csproj", "{2D5DD545-AF98-432F-A225-829EB5872622}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MB.Application", "MB.Application\MB.Application.csproj", "{2D5DD545-AF98-432F-A225-829EB5872622}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MB.Infrastructure.EFCore", "MB.Infrastructure.EFCore", "{3678F911-0EA0-44BA-A110-06B8589CC115}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MB.Infrastructure.EFCore", "MB.Infrastructure.EFCore\MB.Infrastructure.EFCore.csproj", "{7FC3E9E7-0D77-478E-BDC8-2763E39EECCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MB.Infrastructure.EFCore", "MB.Infrastructure.EFCore\MB.Infrastructure.EFCore.csproj", "{7FC3E9E7-0D77-478E-BDC8-2763E39EECCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MB.Presentation.MVCCore", "MB.Presentation.MVCCore\MB.Presentation.MVCCore.csproj", "{31C8A392-55BF-469F-BAAA-1E5AE0006638}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MB.Presentation.MVCCore", "MB.Presentation.MVCCore\MB.Presentation.MVCCore.csproj", "{31C8A392-55BF-469F-BAAA-1E5AE0006638}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,8 +53,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{650951CF-5F70-4B6B-A450-536B72356606} = {0F7F1FF6-4E46-44B5-AB28-81F87CEA9976}
-		{2D5DD545-AF98-432F-A225-829EB5872622} = {729C9567-ED4D-4312-A00D-0237A72E76E0}
 		{4A962B00-8C2C-4206-AA90-FA4655BA3369} = {0BBD8CBE-2DF7-4C2A-BFF8-77C86A4D3C11}
+		{2D5DD545-AF98-432F-A225-829EB5872622} = {729C9567-ED4D-4312-A00D-0237A72E76E0}
 		{7FC3E9E7-0D77-478E-BDC8-2763E39EECCE} = {3678F911-0EA0-44BA-A110-06B8589CC115}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution

@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Domain/MB.Domain.csproj": {}
+    "E:\\code\\C#\\web\\git\\MB_asp.net_core\\MB_asp.net_core\\MB.Domain\\MB.Domain.csproj": {}
   },
   "projects": {
-    "/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Domain/MB.Domain.csproj": {
+    "E:\\code\\C#\\web\\git\\MB_asp.net_core\\MB_asp.net_core\\MB.Domain\\MB.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Domain/MB.Domain.csproj",
+        "projectUniqueName": "E:\\code\\C#\\web\\git\\MB_asp.net_core\\MB_asp.net_core\\MB.Domain\\MB.Domain.csproj",
         "projectName": "MB.Domain",
-        "projectPath": "/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Domain/MB.Domain.csproj",
-        "packagesPath": "/Users/amirba/.nuget/packages/",
-        "outputPath": "/Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Domain/obj/",
+        "projectPath": "E:\\code\\C#\\web\\git\\MB_asp.net_core\\MB_asp.net_core\\MB.Domain\\MB.Domain.csproj",
+        "packagesPath": "C:\\Users\\amir2.ENG1-PC\\.nuget\\packages\\",
+        "outputPath": "E:\\code\\C#\\web\\git\\MB_asp.net_core\\MB_asp.net_core\\MB.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/amirba/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\amir2.ENG1-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "DS.NodaTime.Serialization.Utf8Json": {
+              "target": "Package",
+              "version": "[0.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

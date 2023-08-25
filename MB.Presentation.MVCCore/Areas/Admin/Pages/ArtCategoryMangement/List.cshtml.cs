@@ -1,5 +1,6 @@
 ﻿
 using MB.Applications.Contracts.ArtCategory;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MB.Presentation.MVCCore.Areas.Admin.ArtCategoryMangement
@@ -14,7 +15,21 @@ namespace MB.Presentation.MVCCore.Areas.Admin.ArtCategoryMangement
         }
         public void OnGet()
         {
-            ArtCategoryViewModels = _artCategoryApplication.List();
+            ArtCategoryViewModels = _artCategoryApplication.List().OrderBy(x=>x.Id).ToList();
+        }
+        public IActionResult OnPost(ArtCategoryCreate command)
+        {
+            return RedirectToPage("./list");
+        }
+        public RedirectToPageResult OnPostDelete(int id)
+        {
+            _artCategoryApplication.Delete(id);
+            return RedirectToPage("./list");
+        }
+        public IActionResult OnPostActivate(int id) 
+        {
+            _artCategoryApplication.Activate(id);
+            return RedirectToPage("./list");
         }
     }
 }

@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MB.Applications.Contracts
-build_property.ProjectDir = /Users/amirba/Documents/Asp-net/untitled folder/MB_asp.net_core-main/MB.Applications.Contracts/
+build_property.ProjectDir = E:\code\C#\web\git\MB_asp.net_core\MB_asp.net_core\MB.Applications.Contracts\

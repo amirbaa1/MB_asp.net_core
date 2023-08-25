@@ -9,8 +9,8 @@
     <div class="card-header">
         <h3 class="float-left">Article Category List</h3>
         <div class="float-right">
-            <a class="btn btn-success" asp-page="./Create" asp-area="Administrator">
-                Add New
+            <a class="btn btn-success" asp-page="./Create" asp-area="Admin">
+                Add New Art Category
             </a>
         </div>
     </div>
@@ -26,15 +26,44 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>test tit</td>
-                    <td>test status</td>
-                    <td>test creat</td>
-                    <td>opre</td>
-                </tr>
+                @foreach (var list in Model.ArtCategoryViewModels)
+                {
+                    <tr>
+                        <td>@list.Id</td>
+                        <td>@list.Title</td>
+                        @if (@list.IsDelete == false)
+                        {
+                            <td>No</td>
+                        }
+                        else
+                        {
+                            <td>Yes</td>
+                        }
+
+                        <td>@list.CreateDate</td>
+                        <td>
+                            <div style="display: flex;">
+                                <a style="margin-right:8px;" class="btn btn-dark" asp-page="./Edit" asp-route-id="@list.Id">Edit</a>
+                                @if (list.IsDelete)
+                                {
+                                    <form method="post" asp-page-handler="Activate">
+                                        <input type="hidden" name="id" value="@list.Id">
+                                        <button type="submit" class="btn btn-success">Active</button>
+                                    </form>
+                                }
+                                else
+                                {
+                                    <form method="post" asp-page-handler="Delete">
+                                        <input type="hidden" name="id" value="@list.Id">
+                                        <button type="submit" class="btn btn-danger">Delete</button>
+                                    </form>
+                                }
+                            </div>
+                        </td>
+                    </tr>
+                }
             </tbody>
-    </table>
-               
-</div>
+        </table>    
+
+    </div>
 </div>

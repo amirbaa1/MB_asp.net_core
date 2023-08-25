@@ -12,5 +12,6 @@ namespace MB.Applications.Contracts.ArtCategory
         //    IsDelete = false;
         //    CreateDate = DateTime.Now;
         //}
+
     }
 }

@@ -29,12 +29,8 @@
     <None Remove="Areas\Admin\Pages\ArtCategoryMangement\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Areas\" />
-    <Folder Include="Areas\Admin\" />
     <Folder Include="Areas\Admin\Shared\" />
     <Folder Include="Database\" />
-    <Folder Include="Areas\Admin\Pages\" />
-    <Folder Include="Areas\Admin\Pages\ArtCategoryMangement\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.4" />
