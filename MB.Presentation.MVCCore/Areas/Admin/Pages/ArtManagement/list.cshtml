@@ -1,0 +1,67 @@
+﻿@page
+@model MB.Presentation.MVCCore.Areas.Admin.Pages.ArtManagement.listModel
+@{
+}
+
+<div class="card">
+    <div class="card-header">
+        <h3 class="float-left">Article List</h3>
+        <div class="float-right">
+            <a class="btn btn-success" asp-page="./Create" asp-area="Admin">Add New</a>
+        </div>
+    </div>
+    <div class="card-body">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Article Category</th>
+                    <th>Status</th>
+                    <th>CreationDate</th>
+                    <th>Operations</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                @foreach (var list_art in Model.artViewModels)
+                {
+                <td>@list_art.Id</td>
+                <td>@list_art.ArtCategory</td>
+                <td>
+                    @list_art.IsDelete
+                
+                    @if (list_art.IsDelete)
+                    {
+                        <i class="fa fa-close fa-2x text-danger"></i>
+                    }
+                    else
+                    {
+                        <i class="fa fa-check fa-2x text-success"></i>
+                    }
+                
+                </td>
+                <td>@list_art.CreateTime</td>
+                <td>
+                    <a class="btn btn-warning float-left mr-3" asp-page="./Edit" asp-route-id="@list_art.Id">Edit</a>
+                    @if (list_art.IsDelete)
+                    {
+                        <form method="post" asp-page-handler="Restore" class="float-left">
+                            <button class="btn btn-success">Activate</button>
+                            <input type="hidden" name="id" value="@list_art.Id" />
+                        </form>
+                    }
+                    else
+                    {
+                        <form method="post" asp-page-handler="Remove" class="float-left">
+                            <button class="btn btn-danger">Remove</button>
+                            <input type="hidden" name="id" value="@list_art.Id" />
+                        </form>
+                    }
+                </td>
+            }
+            </tr>
+                </tbody>
+            </table>
+        </div>
+</div>

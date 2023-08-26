@@ -22,6 +22,46 @@ namespace MB.Infrastructure.EFCore.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("MB.Domain.ArtAgg.Art", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ArtCategoryId")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Context")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("CreatTime")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<bool>("IsDelete")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("ShortText")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ArtCategoryId");
+
+                    b.ToTable("Art", (string)null);
+                });
+
             modelBuilder.Entity("MB.Domain.ArtCategoryAgg.ArtCategory", b =>
                 {
                     b.Property<int>("Id")
@@ -43,6 +83,22 @@ namespace MB.Infrastructure.EFCore.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("ArtCategory", (string)null);
+                });
+
+            modelBuilder.Entity("MB.Domain.ArtAgg.Art", b =>
+                {
+                    b.HasOne("MB.Domain.ArtCategoryAgg.ArtCategory", "ArtCategory")
+                        .WithMany("arts")
+                        .HasForeignKey("ArtCategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ArtCategory");
+                });
+
+            modelBuilder.Entity("MB.Domain.ArtCategoryAgg.ArtCategory", b =>
+                {
+                    b.Navigation("arts");
                 });
 #pragma warning restore 612, 618
         }

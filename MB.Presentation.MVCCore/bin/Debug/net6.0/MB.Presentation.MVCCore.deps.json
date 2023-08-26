@@ -1072,7 +1072,8 @@
       },
       "MB.Domain/1.0.0": {
         "dependencies": {
-          "DS.NodaTime.Serialization.Utf8Json": "0.4.0"
+          "DS.NodaTime.Serialization.Utf8Json": "0.4.0",
+          "MB.Applications.Contracts": "1.0.0"
         },
         "runtime": {
           "MB.Domain.dll": {}

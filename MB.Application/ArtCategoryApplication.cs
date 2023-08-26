@@ -21,13 +21,13 @@ namespace MB.Application
         }
         public void Create(ArtCategoryCreate command)
         {
-            if (IsTitleDuplicate(command.Title))
-            {
-                throw new DuplicatedRecordException("This record already exists in the database.");
-            }
-            var artCategoryAdd = new ArtCategory(command.Title);
-            /*            _artCategoryValidatorService.CheckRecoredIsTitle(command.Title);
-            */
+            //if (IsTitleDuplicate(command.Title))
+            //{
+            //    throw new DuplicatedRecordException("This record already exists in the database.");
+            //}
+            var artCategoryAdd = new ArtCategory(command.Title,_artCategoryValidatorService);
+            //_artCategoryValidatorService.CheckRecoredIsTitle(command.Title);
+
             _artCategoryRepository.Creat(artCategoryAdd);
 
         }

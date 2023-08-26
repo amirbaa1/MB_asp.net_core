@@ -1,6 +1,8 @@
+using MB.Applications.Contracts.Art;
 using MB.Applications.Contracts.ArtCategory;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace MB.Presentation.MVCCore.Areas.Admin.Pages.ArtCategoryMangement
 {
@@ -18,7 +20,8 @@ namespace MB.Presentation.MVCCore.Areas.Admin.Pages.ArtCategoryMangement
         public IActionResult OnPost(ArtCategoryCreate command)
         {
             _artCategoryApplication.Create(command);
-            return RedirectToPage("./list");
+             return RedirectToPage("./list");
         }
     }
+
 }

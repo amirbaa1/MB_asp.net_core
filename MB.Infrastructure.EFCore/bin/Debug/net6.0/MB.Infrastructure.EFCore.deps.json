@@ -1050,9 +1050,18 @@
           }
         }
       },
+      "MB.Applications.Contracts/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "7.0.0"
+        },
+        "runtime": {
+          "MB.Applications.Contracts.dll": {}
+        }
+      },
       "MB.Domain/1.0.0": {
         "dependencies": {
-          "DS.NodaTime.Serialization.Utf8Json": "0.4.0"
+          "DS.NodaTime.Serialization.Utf8Json": "0.4.0",
+          "MB.Applications.Contracts": "1.0.0"
         },
         "runtime": {
           "MB.Domain.dll": {}
@@ -1807,6 +1816,11 @@
       "sha512": "sha512-lMTNZWp6a6KGkgMc3rW41D3b0REb03fQycfb/2bNBpiUtsbGYYI/LrAhnX52vrHRe4ze7JxbtpWF1Y5ohdpipQ==",
       "path": "utf8json/1.3.7",
       "hashPath": "utf8json.1.3.7.nupkg.sha512"
+    },
+    "MB.Applications.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "MB.Domain/1.0.0": {
       "type": "project",

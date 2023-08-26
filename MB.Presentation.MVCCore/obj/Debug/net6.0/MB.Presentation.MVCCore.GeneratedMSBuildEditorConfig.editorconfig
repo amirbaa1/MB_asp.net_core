@@ -9,65 +9,73 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MB.Presentation.MVCCore
 build_property.RootNamespace = MB.Presentation.MVCCore
-build_property.ProjectDir = E:\code\C#\web\git\MB_asp.net_core\MB_asp.net_core\MB.Presentation.MVCCore\
+build_property.ProjectDir = /Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core/MB.Presentation.MVCCore/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\code\C#\web\git\MB_asp.net_core\MB_asp.net_core\MB.Presentation.MVCCore
+build_property.MSBuildProjectDirectory = /Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core/MB.Presentation.MVCCore
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/code/C\#/web/git/MB_asp.net_core/MB_asp.net_core/MB.Presentation.MVCCore/Areas/Admin/Pages/ArtCategoryMangement/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQXJ0Q2F0ZWdvcnlNYW5nZW1lbnRcQ3JlYXRlLmNzaHRtbA==
+[/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core/MB.Presentation.MVCCore/Areas/Admin/Pages/ArtCategoryManagement/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vUGFnZXMvQXJ0Q2F0ZWdvcnlNYW5hZ2VtZW50L0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/code/C\#/web/git/MB_asp.net_core/MB_asp.net_core/MB.Presentation.MVCCore/Areas/Admin/Pages/ArtCategoryMangement/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQXJ0Q2F0ZWdvcnlNYW5nZW1lbnRcRWRpdC5jc2h0bWw=
+[/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core/MB.Presentation.MVCCore/Areas/Admin/Pages/ArtCategoryManagement/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vUGFnZXMvQXJ0Q2F0ZWdvcnlNYW5hZ2VtZW50L0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/code/C\#/web/git/MB_asp.net_core/MB_asp.net_core/MB.Presentation.MVCCore/Areas/Admin/Pages/ArtCategoryMangement/List.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQXJ0Q2F0ZWdvcnlNYW5nZW1lbnRcTGlzdC5jc2h0bWw=
+[/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core/MB.Presentation.MVCCore/Areas/Admin/Pages/ArtCategoryManagement/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vUGFnZXMvQXJ0Q2F0ZWdvcnlNYW5hZ2VtZW50L0xpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/code/C\#/web/git/MB_asp.net_core/MB_asp.net_core/MB.Presentation.MVCCore/Areas/Admin/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core/MB.Presentation.MVCCore/Areas/Admin/Pages/ArtManagement/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vUGFnZXMvQXJ0TWFuYWdlbWVudC9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/code/C\#/web/git/MB_asp.net_core/MB_asp.net_core/MB.Presentation.MVCCore/Areas/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core/MB.Presentation.MVCCore/Areas/Admin/Pages/ArtManagement/list.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vUGFnZXMvQXJ0TWFuYWdlbWVudC9saXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/code/C\#/web/git/MB_asp.net_core/MB_asp.net_core/MB.Presentation.MVCCore/Areas/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core/MB.Presentation.MVCCore/Areas/Admin/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/code/C\#/web/git/MB_asp.net_core/MB_asp.net_core/MB.Presentation.MVCCore/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+[/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core/MB.Presentation.MVCCore/Areas/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/code/C\#/web/git/MB_asp.net_core/MB_asp.net_core/MB.Presentation.MVCCore/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+[/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core/MB.Presentation.MVCCore/Areas/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/code/C\#/web/git/MB_asp.net_core/MB_asp.net_core/MB.Presentation.MVCCore/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+[/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core/MB.Presentation.MVCCore/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/code/C\#/web/git/MB_asp.net_core/MB_asp.net_core/MB.Presentation.MVCCore/Pages/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core/MB.Presentation.MVCCore/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/code/C\#/web/git/MB_asp.net_core/MB_asp.net_core/MB.Presentation.MVCCore/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core/MB.Presentation.MVCCore/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/code/C\#/web/git/MB_asp.net_core/MB_asp.net_core/MB.Presentation.MVCCore/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core/MB.Presentation.MVCCore/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/code/C\#/web/git/MB_asp.net_core/MB_asp.net_core/MB.Presentation.MVCCore/Areas/Admin/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-zbuu7ykws4
+[/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core/MB.Presentation.MVCCore/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
 
-[E:/code/C\#/web/git/MB_asp.net_core/MB_asp.net_core/MB.Presentation.MVCCore/Pages/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-fyj2hsna0r
+[/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core/MB.Presentation.MVCCore/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core/MB.Presentation.MVCCore/Areas/Admin/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-0qpkcvlnvr
+
+[/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core/MB.Presentation.MVCCore/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zcyjrqoadl

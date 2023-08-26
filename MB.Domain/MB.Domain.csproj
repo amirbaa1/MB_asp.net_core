@@ -10,4 +10,7 @@
     <PackageReference Include="DS.NodaTime.Serialization.Utf8Json" Version="0.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MB.Applications.Contracts\MB.Applications.Contracts.csproj" />
+  </ItemGroup>
 </Project>
