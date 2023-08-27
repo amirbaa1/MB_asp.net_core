@@ -32,7 +32,6 @@
   <ItemGroup>
     <Folder Include="Areas\Admin\Shared\" />
     <Folder Include="Database\" />
-    <Folder Include="Areas\Admin\Pages\ArtManagement\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.4" />

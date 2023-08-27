@@ -88,7 +88,7 @@ namespace MB.Infrastructure.EFCore.Migrations
             modelBuilder.Entity("MB.Domain.ArtAgg.Art", b =>
                 {
                     b.HasOne("MB.Domain.ArtCategoryAgg.ArtCategory", "ArtCategory")
-                        .WithMany("arts")
+                        .WithMany("artes")
                         .HasForeignKey("ArtCategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -98,7 +98,7 @@ namespace MB.Infrastructure.EFCore.Migrations
 
             modelBuilder.Entity("MB.Domain.ArtCategoryAgg.ArtCategory", b =>
                 {
-                    b.Navigation("arts");
+                    b.Navigation("artes");
                 });
 #pragma warning restore 612, 618
         }

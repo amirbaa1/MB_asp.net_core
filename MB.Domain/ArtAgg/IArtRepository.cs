@@ -5,7 +5,9 @@ namespace MB.Domain.ArtAgg
     {
         List<ArtViewModel> GetAll();
         void Create(Art command);
+        Art Get(int id);
         void Save();
+        bool Exists(string title);
     }
 }
 

@@ -19,10 +19,45 @@ namespace MB.Application
             _artRepository.Create(arts_create);
         }
 
+        public void Edit(ArtEdit command)
+        {
+            var arts = _artRepository.Get(command.Id);
+            arts.Edit(command.Title, command.Context, command.Image, command.ShortText, command.ArtCategoryId);
+            _artRepository.Save();
+
+        }
+
+        public ArtEdit Get(int id)
+        {
+            var art = _artRepository.Get(id);
+            return new ArtEdit
+            {
+                Title = art.Title,
+                Id = art.Id,
+                Image = art.Image,
+                ShortText = art.ShortText,
+                Context = art.Context,
+                ArtCategoryId = art.ArtCategoryId
+            };
+        }
+
         public List<ArtViewModel> List()
         {
             return _artRepository.GetAll();
         }
-        
+
+        public void Delete(int id)
+        {
+            var art = _artRepository.Get(id);
+            art.Delete();
+            _artRepository.Save();
+        }
+
+        public void Activate(int id)
+        {
+            var art = _artRepository.Get(id);
+            art.Activate();
+            _artRepository.Save();
+        }
     }
 }

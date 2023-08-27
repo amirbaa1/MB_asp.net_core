@@ -22,13 +22,41 @@ namespace MB.Domain.ArtAgg
         }
         public Art(string title, string shorttext, string image, string context, int artCategoryId)
         {
+            validata(title, artCategoryId);
             Title = title;
             ShortText = shorttext;
             Image = image;
             Context = context;
             ArtCategoryId = artCategoryId;
+            IsDelete = false;
             CreatTime = DateTime.UtcNow;
         }
 
+        public void Edit(string title, string shorttext, string image, string context, int artCategoryId)
+        {
+            validata(title, artCategoryId);
+            Title = title;
+            ShortText = shorttext;
+            Image = image;
+            Context = context;
+            ArtCategoryId = artCategoryId;
+        }
+
+        public void Delete()
+        {
+            this.IsDelete = true;
+        }
+        public void Activate()
+        {
+            this.IsDelete = false;
+        }
+
+        private static void validata(string title,int artcategoryId)
+        {
+            if (string.IsNullOrWhiteSpace(title))
+                throw new ArgumentNullException();
+            if (artcategoryId == 0)
+                throw new ArgumentOutOfRangeException();
+        }
     }
 }

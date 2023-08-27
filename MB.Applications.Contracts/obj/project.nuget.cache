@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "sDtfIXmyd4boRvpL05AJ7zvsv/4in+fFfxlTCFhikWc+nAW4VoAsfytyL81WOE+2nNMzHYggLX1gQyKWWa8ovA==",
+  "dgSpecHash": "SMnX6uqy8mT9w6ykWsP5ORMAm4mKDzPcg9GayTzFo/tb/zyAgGXW2FUh/elB2nhOetd7ta7pfq0wce12LVDrEw==",
   "success": true,
-  "projectFilePath": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core/MB.Applications.Contracts/MB.Applications.Contracts.csproj",
+  "projectFilePath": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Applications.Contracts\\MB.Applications.Contracts.csproj",
   "expectedPackageFiles": [
-    "/Users/amirba/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
-    "/Users/amirba/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    "C:\\Users\\amir2.ENG1-PC\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\amir2.ENG1-PC\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

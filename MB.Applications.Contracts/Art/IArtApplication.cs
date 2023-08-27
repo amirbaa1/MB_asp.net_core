@@ -6,5 +6,10 @@ namespace MB.Applications.Contracts.Art
     {
         List<ArtViewModel> List();
         void Create(ArtCreate command);
+        void Edit(ArtEdit command);
+        ArtEdit Get(int id);
+        void Delete(int id);
+        void Activate(int id);
+
     }
 }

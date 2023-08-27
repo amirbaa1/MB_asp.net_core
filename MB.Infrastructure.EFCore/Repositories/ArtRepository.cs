@@ -22,6 +22,11 @@ namespace MB.Infrastructure.EFCore.Repositories
       
         }
 
+        public Art Get(int id)
+        {
+            return _context.arts.FirstOrDefault(x => x.Id == id);
+        }
+
         public List<ArtViewModel> GetAll()
         {
             return _context.arts.Include(x => x.ArtCategory).Select(x => new ArtViewModel
@@ -38,6 +43,11 @@ namespace MB.Infrastructure.EFCore.Repositories
         public void Save()
         {
             _context.SaveChanges();
+        }
+
+        public bool Exists(string title)
+        {
+            return _context.arts.Any(x => x.Title == title);
         }
     }
 }

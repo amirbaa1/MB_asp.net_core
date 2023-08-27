@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace MB.Infrastructure.EFCore.Migrations
 {
     [DbContext(typeof(MBContext))]
-    [Migration("20230826134141_FK_chenge")]
-    partial class FK_chenge
+    [Migration("20230826193239_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -91,7 +91,7 @@ namespace MB.Infrastructure.EFCore.Migrations
             modelBuilder.Entity("MB.Domain.ArtAgg.Art", b =>
                 {
                     b.HasOne("MB.Domain.ArtCategoryAgg.ArtCategory", "ArtCategory")
-                        .WithMany("arts")
+                        .WithMany("artes")
                         .HasForeignKey("ArtCategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -101,7 +101,7 @@ namespace MB.Infrastructure.EFCore.Migrations
 
             modelBuilder.Entity("MB.Domain.ArtCategoryAgg.ArtCategory", b =>
                 {
-                    b.Navigation("arts");
+                    b.Navigation("artes");
                 });
 #pragma warning restore 612, 618
         }

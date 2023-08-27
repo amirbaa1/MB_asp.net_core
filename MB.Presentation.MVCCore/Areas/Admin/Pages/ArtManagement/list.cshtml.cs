@@ -16,10 +16,20 @@ namespace MB.Presentation.MVCCore.Areas.Admin.Pages.ArtManagement
         }
         public void OnGet()
         {
-            artViewModels = _artApplication.List();
+            artViewModels = _artApplication.List().OrderBy(x=>x.Id).ToList();
         }
         public IActionResult OnPost()
         {
+            return RedirectToPage("./list");
+        }
+        public IActionResult OnPostDelete(int id)
+        {
+            _artApplication.Delete(id);
+            return RedirectToPage("./list");
+        }
+        public IActionResult OnPostActivate(int id)
+        {
+            _artApplication.Activate(id);
             return RedirectToPage("./list");
         }
     }

@@ -2,6 +2,7 @@
 using MB.Applications.Contracts.Art;
 using MB.Applications.Contracts.ArtCategory;
 using MB.Domain.ArtAgg;
+using MB.Domain.ArtAgg.Services;
 using MB.Domain.ArtCategoryAgg;
 using MB.Domain.ArtCategoryAgg.Services;
 using MB.Infrastructure.EFCore;
@@ -12,13 +13,15 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-//
+//Art nad art category ---> repository and app and service 
 builder.Services.AddTransient<IArtCategoryRepository, ArtCategoryRepository>();
 builder.Services.AddTransient<IArtCategoryApplication, ArtCategoryApplication>();
 builder.Services.AddTransient<IArtCategoryValidatorService, ArtCategoryValidatorService>();
 
 builder.Services.AddTransient<IArtApplication, ArtApplictaion>();
 builder.Services.AddTransient<IArtRepository, ArtRepository>();
+builder.Services.AddTransient<IArtValidationService, ArtValidationService>();
+
 //db
 builder.Services.AddDbContext<MBContext>(options=>options.UseNpgsql(builder.Configuration.GetConnectionString("MasterBloggerDB")));
 //

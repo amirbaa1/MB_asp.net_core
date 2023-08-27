@@ -1,0 +1,56 @@
+﻿@page
+@model MB.Presentation.MVCCore.Areas.Admin.Pages.ArtManagement.EditModel
+@{
+}
+<div class="card">
+    <div class="card-header">
+        <h2>Edit Article</h2>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-12">
+                <form method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="arts.Id" />
+                    <div class="col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label asp-for="arts.Title" class="control-label">Title:</label>
+                            <input asp-for="arts.Title" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label asp-for="arts.ShortText" class="control-label">ShortText:</label>
+                            <textarea asp-for="arts.ShortText" class="form-control" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label asp-for="arts.Image" class="control-label">Image path:</label>
+                            <input asp-for="arts.Image" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label asp-for="arts.Context" class="control-label">Content:</label>
+                            <textarea asp-for="arts.Context" class="form-control" rows="5"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label asp-for="arts.ArtCategoryId" class="control-label">Category:</label>
+                            <select asp-for="arts.ArtCategoryId" asp-items="Model.ArtCategories" class="form-control">
+                                <option value="0">Please Enter Your Articles Category</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <input type="submit" value="Edit" class="btn btn-success" />
+                        <a class="btn btn-dark" asp-page="./list" asp-area="Admin">Back to list</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
