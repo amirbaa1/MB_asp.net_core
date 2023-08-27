@@ -9,7 +9,6 @@ namespace MB.Presentation.MVCCore.Areas.Admin.Pages.ArtManagement
     {
         public List<ArtViewModel> artViewModels { get; set; }
         private readonly IArtApplication _artApplication;
-
         public listModel(IArtApplication artApplication)
         {
             _artApplication = artApplication;

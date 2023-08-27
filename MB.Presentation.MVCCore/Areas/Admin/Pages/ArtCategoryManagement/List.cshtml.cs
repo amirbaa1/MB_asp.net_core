@@ -15,7 +15,7 @@ namespace MB.Presentation.MVCCore.Areas.Admin.ArtCategoryMangement
         }
         public void OnGet()
         {
-            ArtCategoryViewModels = _artCategoryApplication.List().OrderBy(x=>x.Id).ToList();
+            ArtCategoryViewModels = _artCategoryApplication.List_See_Web().OrderBy(x=>x.Id).ToList();
         }
         public IActionResult OnPost(ArtCategoryCreate command)
         {

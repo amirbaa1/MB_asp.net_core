@@ -20,7 +20,7 @@ namespace MB.Presentation.MVCCore.Areas.Admin.Pages.ArtManagement
         public void OnGet(int id)
         {
             arts = _artApplication.Get(id);
-            ArtCategories = _artCategoryApplication.List().Where(x=>x.IsDelete==false).Select(x => new SelectListItem(x.Title, x.Id.ToString())).ToList();
+            ArtCategories = _artCategoryApplication.List_See_Web().Where(x=>x.IsDelete==false).Select(x => new SelectListItem(x.Title, x.Id.ToString())).ToList();
         }
         
         public RedirectToPageResult OnPost()

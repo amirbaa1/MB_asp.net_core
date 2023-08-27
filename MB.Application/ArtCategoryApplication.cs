@@ -32,7 +32,7 @@ namespace MB.Application
 
         }
 
-        public List<ArtCategoryViewModel> List()
+        public List<ArtCategoryViewModel> List_See_Web()
         {
             var artcategories = _artCategoryRepository.GetAll();
             var result = new List<ArtCategoryViewModel>();
