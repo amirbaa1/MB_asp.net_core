@@ -1,5 +1,6 @@
 ﻿using System;
 using MB.Domain.ArtCategoryAgg;
+using MB.Domain.CommentAgg;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace MB.Domain.ArtAgg
@@ -14,7 +15,8 @@ namespace MB.Domain.ArtAgg
         public bool IsDelete { get; private set; }
         public DateTime CreatTime { get; private set; }
         public int ArtCategoryId { get; private set; }
-        public ArtCategory ArtCategory { get; private set; }
+        public ArtCategory ArtCategories { get; private set; }
+        public ICollection<Comment> Comments { get; set; }
 
         protected Art()
         {
@@ -30,6 +32,7 @@ namespace MB.Domain.ArtAgg
             ArtCategoryId = artCategoryId;
             IsDelete = false;
             CreatTime = DateTime.UtcNow;
+            Comments = new List<Comment>();     
         }
 
         public void Edit(string title, string shorttext, string image, string context, int artCategoryId)

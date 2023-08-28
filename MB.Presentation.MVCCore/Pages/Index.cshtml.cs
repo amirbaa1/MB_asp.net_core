@@ -1,20 +1,20 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using MB.infrasturctureQuery;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MB.Presentation.MVCCore.Pages;
 
 public class IndexModel : PageModel
 {
-    private readonly ILogger<IndexModel> _logger;
-
-    public IndexModel(ILogger<IndexModel> logger)
+    public List<ArtQueryView> ArtViews { get; set; }
+    private readonly IArtQuery _artQuery;
+    public IndexModel(IArtQuery artQuery)
     {
-        _logger = logger;
+        _artQuery = artQuery;
     }
-
     public void OnGet()
     {
-
+        ArtViews = _artQuery.GetArt().Where(x => x.IsDelete == false).ToList();
     }
 }
 

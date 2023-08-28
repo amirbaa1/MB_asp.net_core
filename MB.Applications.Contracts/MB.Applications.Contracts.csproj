@@ -9,4 +9,10 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Comment\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Comment\" />
+  </ItemGroup>
 </Project>

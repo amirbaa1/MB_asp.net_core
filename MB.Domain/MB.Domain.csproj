@@ -13,4 +13,10 @@
   <ItemGroup>
     <ProjectReference Include="..\MB.Applications.Contracts\MB.Applications.Contracts.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="CommentAgg\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CommentAgg\" />
+  </ItemGroup>
 </Project>

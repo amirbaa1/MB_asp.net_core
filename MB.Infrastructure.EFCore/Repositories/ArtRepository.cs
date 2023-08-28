@@ -29,11 +29,11 @@ namespace MB.Infrastructure.EFCore.Repositories
 
         public List<ArtViewModel> GetAll()
         {
-            return _context.arts.Include(x => x.ArtCategory).Select(x => new ArtViewModel
+            return _context.arts.Include(x => x.ArtCategories).Select(x => new ArtViewModel
             {
                 Id = x.Id,
                 Title = x.Title,
-                ArtCategory = x.ArtCategory.Title,
+                ArtCategory = x.ArtCategories.Title,
                 IsDelete = x.IsDelete,
                 CreateTime = x.CreatTime.ToString(CultureInfo.InstalledUICulture),
 

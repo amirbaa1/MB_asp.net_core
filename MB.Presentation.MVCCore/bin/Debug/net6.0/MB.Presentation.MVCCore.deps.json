@@ -12,6 +12,7 @@
           "MB.Applications.Contracts": "1.0.0",
           "MB.Domain": "1.0.0",
           "MB.Infrastructure.EFCore": "1.0.0",
+          "MB.infrasturctureQuery": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.10",
           "Microsoft.EntityFrameworkCore.Design": "7.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.10",
@@ -1089,6 +1090,14 @@
         "runtime": {
           "MB.Infrastructure.EFCore.dll": {}
         }
+      },
+      "MB.infrasturctureQuery/1.0.0": {
+        "dependencies": {
+          "MB.Infrastructure.EFCore": "1.0.0"
+        },
+        "runtime": {
+          "MB.infrasturctureQuery.dll": {}
+        }
       }
     }
   },
@@ -1856,6 +1865,11 @@
       "sha512": ""
     },
     "MB.Infrastructure.EFCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MB.infrasturctureQuery/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

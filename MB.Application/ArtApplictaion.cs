@@ -22,7 +22,7 @@ namespace MB.Application
         public void Edit(ArtEdit command)
         {
             var arts = _artRepository.Get(command.Id);
-            arts.Edit(command.Title, command.Context, command.Image, command.ShortText, command.ArtCategoryId);
+            arts.Edit(command.Title, command.ShortText, command.Image, command.Context, command.ArtCategoryId);
             _artRepository.Save();
 
         }

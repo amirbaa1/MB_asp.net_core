@@ -19,9 +19,11 @@ namespace MB.Infrastructure.EFCore.Mapping
             builder.Property(x => x.IsDelete);
 
 
-            builder.HasOne(c => c.ArtCategory)
+            builder.HasOne(c => c.ArtCategories)
                 .WithMany(c => c.artes)
                 .HasForeignKey(c => c.ArtCategoryId);
+
+            builder.HasMany(x => x.Comments).WithOne(x => x.art).HasForeignKey(x => x.ArtId);
         }
     }
 }

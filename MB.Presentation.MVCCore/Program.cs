@@ -7,6 +7,7 @@ using MB.Domain.ArtCategoryAgg;
 using MB.Domain.ArtCategoryAgg.Services;
 using MB.Infrastructure.EFCore;
 using MB.Infrastructure.EFCore.Repositories;
+using MB.infrasturctureQuery;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,6 +22,8 @@ builder.Services.AddTransient<IArtCategoryValidatorService, ArtCategoryValidator
 builder.Services.AddTransient<IArtApplication, ArtApplictaion>();
 builder.Services.AddTransient<IArtRepository, ArtRepository>();
 builder.Services.AddTransient<IArtValidationService, ArtValidationService>();
+
+builder.Services.AddTransient<IArtQuery, ArtQuery>();
 
 //db
 builder.Services.AddDbContext<MBContext>(options=>options.UseNpgsql(builder.Configuration.GetConnectionString("MasterBloggerDB")));

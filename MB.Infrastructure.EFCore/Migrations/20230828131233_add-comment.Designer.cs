@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace MB.Infrastructure.EFCore.Migrations
 {
     [DbContext(typeof(MBContext))]
-    [Migration("20230826193239_init")]
-    partial class init
+    [Migration("20230828131233_add-comment")]
+    partial class addcomment
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -88,15 +88,67 @@ namespace MB.Infrastructure.EFCore.Migrations
                     b.ToTable("ArtCategory", (string)null);
                 });
 
+            modelBuilder.Entity("MB.Domain.CommentAgg.Comment", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ArtId")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("SendMessage")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("integer");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ArtId");
+
+                    b.ToTable("Comments", (string)null);
+                });
+
             modelBuilder.Entity("MB.Domain.ArtAgg.Art", b =>
                 {
-                    b.HasOne("MB.Domain.ArtCategoryAgg.ArtCategory", "ArtCategory")
+                    b.HasOne("MB.Domain.ArtCategoryAgg.ArtCategory", "ArtCategories")
                         .WithMany("artes")
                         .HasForeignKey("ArtCategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("ArtCategory");
+                    b.Navigation("ArtCategories");
+                });
+
+            modelBuilder.Entity("MB.Domain.CommentAgg.Comment", b =>
+                {
+                    b.HasOne("MB.Domain.ArtAgg.Art", "art")
+                        .WithMany("Comments")
+                        .HasForeignKey("ArtId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("art");
+                });
+
+            modelBuilder.Entity("MB.Domain.ArtAgg.Art", b =>
+                {
+                    b.Navigation("Comments");
                 });
 
             modelBuilder.Entity("MB.Domain.ArtCategoryAgg.ArtCategory", b =>

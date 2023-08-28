@@ -1,0 +1,21 @@
+﻿@page
+@model MB.Presentation.MVCCore.Pages.ArtDetailsModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+
+<h1>Title : @Model.artQueryView.Title</h1>
+<div class="post-footer d-flex align-items-center flex-column flex-sm-row">
+    <div class="d-flex align-items-center flex-wrap">
+        <div style="color: #99A3A4; font-size: 12px;" class="date"><i class="bi bi-clock"></i> @Model.artQueryView.CreateTime</div>
+        <div style="color: #99A3A4; font-size:12px; margin-left:3px;" class="comments meta-last"><i class="bi bi-chat-dots">2</i></div>
+    </div>
+</div>
+<img style="display: block; margin: 0 auto; width: 640px;" src="@Model.artQueryView.Image"/>
+<div class="post-body">
+    <p>@Model.artQueryView.ShortText</p>
+    <p style="padding:20px;">@Model.artQueryView.Context</p>
+</div>
+<p style="padding:20px;">@Model.artQueryView.Context</p>

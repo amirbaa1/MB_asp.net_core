@@ -1,0 +1,25 @@
+﻿@page
+@model MB.Presentation.MVCCore.Areas.Admin.Pages.IndexModel
+@{
+}
+<head>
+    <style>
+        .btnn-center {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+    </style>
+</head>
+<h1>Admin Art</h1>
+
+
+
+<div class="btnn-center">
+<a class="btn btn-dark" asp-area="Admin" asp-page="/ArtCategoryManagement/list">Art Categroy</a>
+
+
+<a class="btn btn-dark" asp-area="Admin" asp-page="/ArtManagement/list">Art</a>
+<a class="btn btn-primary" asp-area="" asp-page="/Index">Home</a>
+
+</div>
