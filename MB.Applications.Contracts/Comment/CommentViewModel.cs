@@ -6,6 +6,11 @@ namespace MB.Applications.Contracts.Comment
 		public int Id { get; set; }
 		public string Name { get; set; }
 		public string Email { get; set; }
-	}//TODO: ????
+		public string Message { get; set; }
+		public string SendMessage { get; set; }
+		public int Status { get; set; }
+		public int ArtId { get; set; }
+		public string Art { get; set; }
+    }
 }
 

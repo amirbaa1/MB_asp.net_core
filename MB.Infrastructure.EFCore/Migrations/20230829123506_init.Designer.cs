@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace MB.Infrastructure.EFCore.Migrations
 {
     [DbContext(typeof(MBContext))]
-    [Migration("20230828080455_init")]
+    [Migration("20230829123506_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -90,13 +90,13 @@ namespace MB.Infrastructure.EFCore.Migrations
 
             modelBuilder.Entity("MB.Domain.ArtAgg.Art", b =>
                 {
-                    b.HasOne("MB.Domain.ArtCategoryAgg.ArtCategory", "ArtCategory")
+                    b.HasOne("MB.Domain.ArtCategoryAgg.ArtCategory", "ArtCategories")
                         .WithMany("artes")
                         .HasForeignKey("ArtCategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("ArtCategory");
+                    b.Navigation("ArtCategories");
                 });
 
             modelBuilder.Entity("MB.Domain.ArtCategoryAgg.ArtCategory", b =>

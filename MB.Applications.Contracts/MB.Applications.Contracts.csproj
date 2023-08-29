@@ -12,7 +12,4 @@
   <ItemGroup>
     <None Remove="Comment\" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Comment\" />
-  </ItemGroup>
 </Project>

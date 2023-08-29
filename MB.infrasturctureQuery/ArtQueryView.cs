@@ -12,5 +12,7 @@ public class ArtQueryView
     public string ArtCategory { get; set; }
     public string Context { get; set; }
     public bool IsDelete { get; set; }
+    public int CommnetCount { get; set; }
+    public List<CommnetQureyView> CommnetQureyViews { get; set; }
 }
 

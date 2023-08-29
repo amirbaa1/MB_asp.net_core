@@ -5,7 +5,6 @@ namespace MB.infrasturctureQuery
 	{
 		List<ArtQueryView> GetArt();
 		ArtQueryView GetArt(int id);
-
 	}
 }
 

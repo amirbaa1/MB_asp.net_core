@@ -12,7 +12,10 @@ namespace MB.Infrastructure.EFCore
         public DbSet<ArtCategory> ArtCategories { get; set; }
         public DbSet<Art> arts { get; set; }
         public DbSet<Comment> comments { get; set; }
-        public MBContext(DbContextOptions<MBContext> options) : base(options) { }
+
+        public MBContext(DbContextOptions<MBContext> options) : base(options) 
+        { 
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -32,8 +32,8 @@ namespace MB.Domain.ArtAgg
             ArtCategoryId = artCategoryId;
             IsDelete = false;
             CreatTime = DateTime.UtcNow;
-            Comments = new List<Comment>();     
-        }
+/*            Comments = new List<Comment>();     
+*/        }
 
         public void Edit(string title, string shorttext, string image, string context, int artCategoryId)
         {

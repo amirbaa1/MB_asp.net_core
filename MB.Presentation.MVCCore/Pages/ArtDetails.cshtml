@@ -10,12 +10,45 @@
 <div class="post-footer d-flex align-items-center flex-column flex-sm-row">
     <div class="d-flex align-items-center flex-wrap">
         <div style="color: #99A3A4; font-size: 12px;" class="date"><i class="bi bi-clock"></i> @Model.artQueryView.CreateTime</div>
-        <div style="color: #99A3A4; font-size:12px; margin-left:3px;" class="comments meta-last"><i class="bi bi-chat-dots">2</i></div>
+        <div style="color: #99A3A4; font-size:12px; margin-left:3px;" class="comments meta-last"><i class="bi bi-chat-dots">@Model.artQueryView.CommnetCount</i></div>
     </div>
 </div>
-<img style="display: block; margin: 0 auto; width: 640px;" src="@Model.artQueryView.Image"/>
+<img style="display: block; margin: 0 auto; width: 640px;" src="@Model.artQueryView.Image" />
 <div class="post-body">
     <p>@Model.artQueryView.ShortText</p>
     <p style="padding:20px;">@Model.artQueryView.Context</p>
 </div>
-<p style="padding:20px;">@Model.artQueryView.Context</p>
+<br />
+<hr />
+<form method="post">
+    <div class="form-row">
+        <div class="row g-3">
+            <div class="col">
+                <label for="Name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="Name" name="Name" placeholder="Name">
+            </div>
+            <div class="col">
+                <label for="Email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="Email" name="Email" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="Message" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="Message" name="Message" rows="3"></textarea>
+            </div>
+            <input type="hidden" name="ArtId" value="@Model.artQueryView.Id" />
+            <div class="sm-4">
+                <button type="submit" class="btn btn-secondary">Comment</button>
+            </div>
+        </div>
+    </div>
+</form>
+<br />
+<hr />
+@foreach (var c in Model.artQueryView.CommnetQureyViews)
+{
+    <h6>@c.Email///@c.Name</h6>
+    <p>@c.Message</p>
+    <hr />
+}
+
+

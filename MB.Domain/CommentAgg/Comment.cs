@@ -14,7 +14,7 @@ namespace MB.Domain.CommentAgg
 		public int ArtId { get; private set; }
 		public Art art { get; private set; }
 
-		protected Comment() {} 
+		protected Comment() { }
 
 		public Comment(string name, string email, string message, int artId)
 		{
@@ -23,6 +23,18 @@ namespace MB.Domain.CommentAgg
 			Message = message;
 			ArtId = artId;
 			SendMessage = DateTime.UtcNow;
+			Status = Statuses.New;
+		}
+		public void Confrimed()
+		{
+			Status = Statuses.Confrimed;
+		}
+		public void Canceled()
+		{
+			Status = Statuses.Canceled;
+		}
+		public void New()
+		{
 			Status = Statuses.New;
 		}
 

@@ -1,10 +1,12 @@
 ﻿using MB.Application;
 using MB.Applications.Contracts.Art;
 using MB.Applications.Contracts.ArtCategory;
+using MB.Applications.Contracts.Comment;
 using MB.Domain.ArtAgg;
 using MB.Domain.ArtAgg.Services;
 using MB.Domain.ArtCategoryAgg;
 using MB.Domain.ArtCategoryAgg.Services;
+using MB.Domain.CommentAgg;
 using MB.Infrastructure.EFCore;
 using MB.Infrastructure.EFCore.Repositories;
 using MB.infrasturctureQuery;
@@ -22,6 +24,9 @@ builder.Services.AddTransient<IArtCategoryValidatorService, ArtCategoryValidator
 builder.Services.AddTransient<IArtApplication, ArtApplictaion>();
 builder.Services.AddTransient<IArtRepository, ArtRepository>();
 builder.Services.AddTransient<IArtValidationService, ArtValidationService>();
+
+builder.Services.AddTransient<ICommentApp, CommentApplication>();
+builder.Services.AddTransient<ICommentRepository, CommentRepository>();
 
 builder.Services.AddTransient<IArtQuery, ArtQuery>();
 

@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace MB.Infrastructure.EFCore.Migrations
 {
     [DbContext(typeof(MBContext))]
-    [Migration("20230828131233_add-comment")]
-    partial class addcomment
+    [Migration("20230829142802_add-db-Comment")]
+    partial class adddbComment
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
