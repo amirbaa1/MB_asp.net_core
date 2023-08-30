@@ -8,6 +8,6 @@ namespace MB.Domain.ArtCategoryAgg
         ArtCategory Get(long id);
         void Save();
         bool CheckIsTitle(string title);
-
+        void Remove(ArtCategory artCategory);
     }
 }

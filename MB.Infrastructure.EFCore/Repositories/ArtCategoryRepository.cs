@@ -4,8 +4,8 @@ namespace MB.Infrastructure.EFCore.Repositories
 {
     public class ArtCategoryRepository : IArtCategoryRepository
     {
-       private readonly MBContext _context;
-        
+        private readonly MBContext _context;
+
         public ArtCategoryRepository(MBContext context)
         {
             _context = context;
@@ -30,6 +30,11 @@ namespace MB.Infrastructure.EFCore.Repositories
         public List<ArtCategory> GetAll()
         {
             return _context.ArtCategories.ToList();
+        }
+
+        public void Remove(ArtCategory artCategory)
+        {
+            _context.ArtCategories.Remove(artCategory);
         }
 
         public void Save()

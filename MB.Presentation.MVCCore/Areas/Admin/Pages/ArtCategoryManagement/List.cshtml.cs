@@ -31,5 +31,10 @@ namespace MB.Presentation.MVCCore.Areas.Admin.ArtCategoryMangement
             _artCategoryApplication.Activate(id);
             return RedirectToPage("./list");
         }
+        public IActionResult OnPostRemove(int id)
+        {
+            _artCategoryApplication.Remove(id);
+            return RedirectToPage("./list");
+        }
     }
 }

@@ -1,27 +1,85 @@
 {
   "format": 1,
   "restore": {
-    "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Presentation.MVCCore\\MB.Presentation.MVCCore.csproj": {}
+    "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Presentation.MVCCore/MB.Presentation.MVCCore.csproj": {}
   },
   "projects": {
-    "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Applications.Contracts\\MB.Applications.Contracts.csproj": {
+    "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Application/MB.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Applications.Contracts\\MB.Applications.Contracts.csproj",
-        "projectName": "MB.Applications.Contracts",
-        "projectPath": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Applications.Contracts\\MB.Applications.Contracts.csproj",
-        "packagesPath": "C:\\Users\\amir2.ENG1-PC\\.nuget\\packages\\",
-        "outputPath": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Applications.Contracts\\obj\\",
+        "projectUniqueName": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Application/MB.Application.csproj",
+        "projectName": "MB.Application",
+        "projectPath": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Application/MB.Application.csproj",
+        "packagesPath": "/Users/amirba/.nuget/packages/",
+        "outputPath": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\amir2.ENG1-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/amirba/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Applications.Contracts/MB.Applications.Contracts.csproj": {
+                "projectPath": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Applications.Contracts/MB.Applications.Contracts.csproj"
+              },
+              "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Domain/MB.Domain.csproj": {
+                "projectPath": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Domain/MB.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Applications.Contracts/MB.Applications.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Applications.Contracts/MB.Applications.Contracts.csproj",
+        "projectName": "MB.Applications.Contracts",
+        "projectPath": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Applications.Contracts/MB.Applications.Contracts.csproj",
+        "packagesPath": "/Users/amirba/.nuget/packages/",
+        "outputPath": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Applications.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/amirba/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,98 +119,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Application\\MB.Application.csproj": {
+    "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Domain/MB.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Application\\MB.Application.csproj",
-        "projectName": "MB.Application",
-        "projectPath": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Application\\MB.Application.csproj",
-        "packagesPath": "C:\\Users\\amir2.ENG1-PC\\.nuget\\packages\\",
-        "outputPath": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Application\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\amir2.ENG1-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Applications.Contracts\\MB.Applications.Contracts.csproj": {
-                "projectPath": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Applications.Contracts\\MB.Applications.Contracts.csproj"
-              },
-              "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Domain\\MB.Domain.csproj": {
-                "projectPath": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Domain\\MB.Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Domain\\MB.Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Domain\\MB.Domain.csproj",
+        "projectUniqueName": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Domain/MB.Domain.csproj",
         "projectName": "MB.Domain",
-        "projectPath": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Domain\\MB.Domain.csproj",
-        "packagesPath": "C:\\Users\\amir2.ENG1-PC\\.nuget\\packages\\",
-        "outputPath": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Domain\\obj\\",
+        "projectPath": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Domain/MB.Domain.csproj",
+        "packagesPath": "/Users/amirba/.nuget/packages/",
+        "outputPath": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\amir2.ENG1-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/amirba/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Applications.Contracts\\MB.Applications.Contracts.csproj": {
-                "projectPath": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Applications.Contracts\\MB.Applications.Contracts.csproj"
+              "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Applications.Contracts/MB.Applications.Contracts.csproj": {
+                "projectPath": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Applications.Contracts/MB.Applications.Contracts.csproj"
               }
             }
           }
@@ -188,36 +182,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Infrastructure.EFCore\\MB.Infrastructure.EFCore.csproj": {
+    "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Infrastructure.EFCore/MB.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Infrastructure.EFCore\\MB.Infrastructure.EFCore.csproj",
+        "projectUniqueName": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Infrastructure.EFCore/MB.Infrastructure.EFCore.csproj",
         "projectName": "MB.Infrastructure.EFCore",
-        "projectPath": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Infrastructure.EFCore\\MB.Infrastructure.EFCore.csproj",
-        "packagesPath": "C:\\Users\\amir2.ENG1-PC\\.nuget\\packages\\",
-        "outputPath": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Infrastructure.EFCore\\obj\\",
+        "projectPath": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Infrastructure.EFCore/MB.Infrastructure.EFCore.csproj",
+        "packagesPath": "/Users/amirba/.nuget/packages/",
+        "outputPath": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Infrastructure.EFCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\amir2.ENG1-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/amirba/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Domain\\MB.Domain.csproj": {
-                "projectPath": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Domain\\MB.Domain.csproj"
+              "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Domain/MB.Domain.csproj": {
+                "projectPath": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Domain/MB.Domain.csproj"
               }
             }
           }
@@ -273,36 +265,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.infrasturctureQuery\\MB.infrasturctureQuery.csproj": {
+    "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.infrasturctureQuery/MB.infrasturctureQuery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.infrasturctureQuery\\MB.infrasturctureQuery.csproj",
+        "projectUniqueName": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.infrasturctureQuery/MB.infrasturctureQuery.csproj",
         "projectName": "MB.infrasturctureQuery",
-        "projectPath": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.infrasturctureQuery\\MB.infrasturctureQuery.csproj",
-        "packagesPath": "C:\\Users\\amir2.ENG1-PC\\.nuget\\packages\\",
-        "outputPath": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.infrasturctureQuery\\obj\\",
+        "projectPath": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.infrasturctureQuery/MB.infrasturctureQuery.csproj",
+        "packagesPath": "/Users/amirba/.nuget/packages/",
+        "outputPath": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.infrasturctureQuery/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\amir2.ENG1-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/amirba/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Infrastructure.EFCore\\MB.Infrastructure.EFCore.csproj": {
-                "projectPath": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Infrastructure.EFCore\\MB.Infrastructure.EFCore.csproj"
+              "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Infrastructure.EFCore/MB.Infrastructure.EFCore.csproj": {
+                "projectPath": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Infrastructure.EFCore/MB.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -332,48 +322,47 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Presentation.MVCCore\\MB.Presentation.MVCCore.csproj": {
+    "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Presentation.MVCCore/MB.Presentation.MVCCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Presentation.MVCCore\\MB.Presentation.MVCCore.csproj",
+        "projectUniqueName": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Presentation.MVCCore/MB.Presentation.MVCCore.csproj",
         "projectName": "MB.Presentation.MVCCore",
-        "projectPath": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Presentation.MVCCore\\MB.Presentation.MVCCore.csproj",
-        "packagesPath": "C:\\Users\\amir2.ENG1-PC\\.nuget\\packages\\",
-        "outputPath": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Presentation.MVCCore\\obj\\",
+        "projectPath": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Presentation.MVCCore/MB.Presentation.MVCCore.csproj",
+        "packagesPath": "/Users/amirba/.nuget/packages/",
+        "outputPath": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Presentation.MVCCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\amir2.ENG1-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/amirba/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/sdk/7.0.307/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Applications.Contracts\\MB.Applications.Contracts.csproj": {
-                "projectPath": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Applications.Contracts\\MB.Applications.Contracts.csproj"
+              "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Application/MB.Application.csproj": {
+                "projectPath": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Application/MB.Application.csproj"
               },
-              "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Application\\MB.Application.csproj": {
-                "projectPath": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Application\\MB.Application.csproj"
+              "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Applications.Contracts/MB.Applications.Contracts.csproj": {
+                "projectPath": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Applications.Contracts/MB.Applications.Contracts.csproj"
               },
-              "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Domain\\MB.Domain.csproj": {
-                "projectPath": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Domain\\MB.Domain.csproj"
+              "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Domain/MB.Domain.csproj": {
+                "projectPath": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Domain/MB.Domain.csproj"
               },
-              "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Infrastructure.EFCore\\MB.Infrastructure.EFCore.csproj": {
-                "projectPath": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.Infrastructure.EFCore\\MB.Infrastructure.EFCore.csproj"
+              "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Infrastructure.EFCore/MB.Infrastructure.EFCore.csproj": {
+                "projectPath": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Infrastructure.EFCore/MB.Infrastructure.EFCore.csproj"
               },
-              "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.infrasturctureQuery\\MB.infrasturctureQuery.csproj": {
-                "projectPath": "E:\\code\\C#\\web\\git\\repost\\MB_asp.net_core\\MB.infrasturctureQuery\\MB.infrasturctureQuery.csproj"
+              "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.infrasturctureQuery/MB.infrasturctureQuery.csproj": {
+                "projectPath": "/Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.infrasturctureQuery/MB.infrasturctureQuery.csproj"
               }
             }
           }
@@ -432,7 +421,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
         }
       }
     }

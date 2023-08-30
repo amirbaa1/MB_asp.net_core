@@ -28,7 +28,7 @@ namespace MB.infrasturctureQuery
 
             }).ToList();
         }
-
+        // opne wiht id post detils art
         public ArtQueryView GetArt(int id)
         {
             return _context.arts.Include(x => x.ArtCategories).Include(x=>x.Comments).Select(x => new ArtQueryView
@@ -44,7 +44,7 @@ namespace MB.infrasturctureQuery
                 CommnetQureyViews = MapComments(x.Comments.Where(x=>x.Status == Statuses.Confrimed)),
             }).FirstOrDefault(x => x.Id == id);
         }
-
+        //comment in post art
         private static List<CommnetQureyView> MapComments(IEnumerable<Comment> enumerable)
         {
             var result = new List<CommnetQureyView>();

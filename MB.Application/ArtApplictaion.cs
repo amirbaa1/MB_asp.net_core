@@ -59,5 +59,12 @@ namespace MB.Application
             art.Activate();
             _artRepository.Save();
         }
+
+        public void Remove(int id)
+        {
+            var art = _artRepository.Get(id);
+            _artRepository.Remove(art);
+            _artRepository.Save();
+        }
     }
 }

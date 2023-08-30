@@ -58,15 +58,3 @@ E:/code/C#/web/git/repost/MB_asp.net_core/MB.Applications.Contracts/obj/Debug/ne
 /Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Applications.Contracts/obj/Debug/net6.0/refint/MB.Applications.Contracts.dll
 /Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Applications.Contracts/obj/Debug/net6.0/MB.Applications.Contracts.pdb
 /Users/amirba/Documents/Asp-net/Web/git-MB/MB_asp.net_core-main/MB_asp.net_core/MB.Applications.Contracts/obj/Debug/net6.0/ref/MB.Applications.Contracts.dll
-E:\code\C#\web\git\repost\MB_asp.net_core\MB.Applications.Contracts\bin\Debug\net6.0\MB.Applications.Contracts.deps.json
-E:\code\C#\web\git\repost\MB_asp.net_core\MB.Applications.Contracts\bin\Debug\net6.0\MB.Applications.Contracts.dll
-E:\code\C#\web\git\repost\MB_asp.net_core\MB.Applications.Contracts\bin\Debug\net6.0\MB.Applications.Contracts.pdb
-E:\code\C#\web\git\repost\MB_asp.net_core\MB.Applications.Contracts\obj\Debug\net6.0\MB.Applications.Contracts.csproj.AssemblyReference.cache
-E:\code\C#\web\git\repost\MB_asp.net_core\MB.Applications.Contracts\obj\Debug\net6.0\MB.Applications.Contracts.GeneratedMSBuildEditorConfig.editorconfig
-E:\code\C#\web\git\repost\MB_asp.net_core\MB.Applications.Contracts\obj\Debug\net6.0\MB.Applications.Contracts.AssemblyInfoInputs.cache
-E:\code\C#\web\git\repost\MB_asp.net_core\MB.Applications.Contracts\obj\Debug\net6.0\MB.Applications.Contracts.AssemblyInfo.cs
-E:\code\C#\web\git\repost\MB_asp.net_core\MB.Applications.Contracts\obj\Debug\net6.0\MB.Applications.Contracts.csproj.CoreCompileInputs.cache
-E:\code\C#\web\git\repost\MB_asp.net_core\MB.Applications.Contracts\obj\Debug\net6.0\MB.Applications.Contracts.dll
-E:\code\C#\web\git\repost\MB_asp.net_core\MB.Applications.Contracts\obj\Debug\net6.0\refint\MB.Applications.Contracts.dll
-E:\code\C#\web\git\repost\MB_asp.net_core\MB.Applications.Contracts\obj\Debug\net6.0\MB.Applications.Contracts.pdb
-E:\code\C#\web\git\repost\MB_asp.net_core\MB.Applications.Contracts\obj\Debug\net6.0\ref\MB.Applications.Contracts.dll

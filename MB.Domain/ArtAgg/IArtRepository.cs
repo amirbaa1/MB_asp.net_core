@@ -8,6 +8,7 @@ namespace MB.Domain.ArtAgg
         Art Get(int id);
         void Save();
         bool Exists(string title);
+        void Remove(Art command);
     }
 }
 

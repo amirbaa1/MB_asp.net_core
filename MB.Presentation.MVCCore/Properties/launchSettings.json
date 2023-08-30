@@ -11,7 +11,7 @@
     "MB.Presentation.MVCCore": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "https://localhost:7200/admin/ArtCategoryManagement/list",
+      "launchUrl": "https://localhost:7200/admin/",
       "applicationUrl": "https://localhost:7200;http://localhost:5217",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

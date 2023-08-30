@@ -6,9 +6,6 @@
 <div class="card">
     <div class="card-header">
         <h3 class="float-left">Comment List</h3>
-        <div class="float-right">
-            <a class="btn btn-success" asp-page="./Create" asp-area="Admin">Add New</a>
-        </div>
     </div>
     <div class="card-body">
         <table class="table">
@@ -20,7 +17,7 @@
                     <th>ArtId</th>
                     <th>Name Art</th>
                     <th>Message</th>
-                    <td>Send Message</td>
+                    <th>Send Message</th>
                     <th>Status</th>
                     <th>Operations</th>
                 </tr>
@@ -28,7 +25,7 @@
 
             <tbody>
                 @foreach (var list_com in Model.comment)
-                {
+                    {
                     <tr>
                         <td>@list_com.Id</td>
                         <td>@list_com.Name</td>
@@ -38,39 +35,36 @@
                         <td>@list_com.Message</td>
                         <td>@list_com.SendMessage</td>
                         @if (list_com.Status == Statuses.New)
-                        {
+                            {
                             <td>New</td>
-                        }
+                            }
                         @if (list_com.Status == Statuses.Confrimed)
-                        {
+                            {
                             <td>Confrimed</td>
-                        }
+                            }
                         @if (list_com.Status == Statuses.Canceled)
-                        {
+                            {
                             <td>Canceled</td>
-                        }
+                            }
                         <td>
                             @if (list_com.Status == 0 || list_com.Status == Statuses.Canceled)
-                            {
+                                {
                                 <form method="post" asp-page-handler="Confrimed" class="float-left">
                                     <button class="btn btn-danger">Confrim</button>
                                     <input type="hidden" name="id" value="@list_com.Id" />
                                 </form>
 
-                            }
+                                }
                             @if (list_com.Status == Statuses.Confrimed)
-                            {
-
-
+                                {
                                 <form method="post" asp-page-handler="Canseled" class="float-left">
                                     <button class="btn btn-danger">Cancel</button>
                                     <input type="hidden" name="id" value="@list_com.Id" />
                                 </form>
-
-                            }
+                                }
                         </td>
                     </tr>
-                }
+                    }
             </tbody>
         </table>
     </div>

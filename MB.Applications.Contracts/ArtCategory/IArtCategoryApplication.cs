@@ -8,6 +8,6 @@
         ArtCategoryRename Get(long id);
         void Delete(long id);
         void Activate(long id);
-        
+        void Remove(long id);
     }
 }

@@ -10,6 +10,7 @@ namespace MB.Applications.Contracts.Art
         ArtEdit Get(int id);
         void Delete(int id);
         void Activate(int id);
+        void Remove(int id);
 
     }
 }

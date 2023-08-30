@@ -49,5 +49,11 @@ namespace MB.Infrastructure.EFCore.Repositories
         {
             return _context.arts.Any(x => x.Title == title);
         }
+
+        public void Remove(Art command)
+        {
+            _context.arts.Remove(command);
+           
+        }
     }
 }
